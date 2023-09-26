@@ -18,6 +18,6 @@ public class PublishRotation : MonoBehaviour
     void Update()
     {
         headsetPos = centerEye.transform.position;
-        Debug.Log(headsetPos);
+        //Debug.Log(headsetPos);
     }
 }
