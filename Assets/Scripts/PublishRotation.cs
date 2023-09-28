@@ -17,7 +17,7 @@ public class PublishRotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        headsetPos = centerEye.transform.position;
-        //Debug.Log(headsetPos);
+        headsetPos = centerEye.transform.localEulerAngles;
+        Debug.Log(headsetPos);
     }
 }
